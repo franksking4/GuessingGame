@@ -1,2 +1,2 @@
 # GuessingGame
-A Guessing game created using Java.
+Unit 2 Project for AP Computer Science A. A guessing game created using Java.
