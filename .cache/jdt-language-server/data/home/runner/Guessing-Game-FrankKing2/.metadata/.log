@@ -1,0 +1,381 @@
+!SESSION 2023-11-11 03:53:10.362 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.481
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.824
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.880
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.882
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.891
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.892
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.900
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.902
+!MESSAGE Wait for AutoBuildOffJob end 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.903
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.904
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.905
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.906
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:12.928
+!MESSAGE Started org.eclipse.buildship.core 22ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:13.437
+!MESSAGE LoadingGradleVersionJob finished 509ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:13.461
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:13.511
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:13.668
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:15.082
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-11 03:53:15.110
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/Guessing-Game-FrankKing2 overlaps the workspace location: /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-11 03:53:15.111
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-11 03:53:15.111
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-11 03:53:15.111
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-11 03:53:15.111
+!MESSAGE /home/runner/Guessing-Game-FrankKing2 overlaps the workspace location: /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:15.171
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:15.179
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:15.209
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:15.213
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:15.214
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:15.961
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.169
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.174
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.180
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.564
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.565
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.568
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.575
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.601
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:16.602
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:17.464
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:17.467
+!MESSAGE Resource leak: 'scan' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:17.467
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:53:17.468
+!MESSAGE Validated 1. Took 465 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 03:54:01.747
+!MESSAGE >> document/hover
+!SESSION 2023-11-11 17:37:00.329 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-11 17:37:01.768
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.452
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.780
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.823
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.825
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.834
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.834
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.840
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.841
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.864
+!MESSAGE ProjectRegistryRefreshJob finished 22ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.865
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.889
+!MESSAGE Started org.eclipse.buildship.core 24ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.921
+!MESSAGE LoadingGradleVersionJob finished 32ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:02.993
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:04.047
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-11 17:37:04.777
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/Guessing-Game-FrankKing2 overlaps the workspace location: /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-11 17:37:04.779
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-11 17:37:04.779
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-11 17:37:04.779
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-11 17:37:04.779
+!MESSAGE /home/runner/Guessing-Game-FrankKing2 overlaps the workspace location: /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:04.832
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:04.845
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:04.854
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:04.858
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:04.859
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:05.537
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:05.547
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:05.553
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:05.593
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:05.598
+!MESSAGE Clearing problems for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:05.599
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:06.077
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:06.108
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:06.564
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:06.567
+!MESSAGE Resource leak: 'scan' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:06.568
+!MESSAGE 2 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:37:06.569
+!MESSAGE Validated 1. Took 91 ms
+!SESSION 2023-11-11 17:39:15.036 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-11 17:39:16.182
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:16.846
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.093
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.140
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.142
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.152
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.153
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.159
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.160
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.182
+!MESSAGE ProjectRegistryRefreshJob finished 22ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.183
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.201
+!MESSAGE Started org.eclipse.buildship.core 17ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:17.222
+!MESSAGE LoadingGradleVersionJob finished 21ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:18.251
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-11-11 17:39:19.053
+!MESSAGE Initialization failed 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to import projects
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:136)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:107)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:244)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Invalid project description.
+Contains: OK
+Contains: /home/runner/Guessing-Game-FrankKing2 overlaps the workspace location: /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 -1 2023-11-11 17:39:19.055
+!MESSAGE Failed to import projects
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-11-11 17:39:19.055
+!MESSAGE Invalid project description.
+!SUBENTRY 3 unknown 0 0 2023-11-11 17:39:19.055
+!MESSAGE OK
+!SUBENTRY 3 org.eclipse.core.resources 4 77 2023-11-11 17:39:19.055
+!MESSAGE /home/runner/Guessing-Game-FrankKing2 overlaps the workspace location: /home/runner/Guessing-Game-FrankKing2/.cache/jdt-language-server/data/home/runner/Guessing-Game-FrankKing2
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:21.650
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:21.651
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:21.658
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:21.662
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 17:39:21.662
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 18:35:22.814
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 18:36:57.904
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:08:11.635
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:20:19.098
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:38:11.000
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:38:12.035
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:56:42.635
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:57:14.484
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:58:11.590
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-11-11 19:58:11.746
+!MESSAGE >> document/codeAction
